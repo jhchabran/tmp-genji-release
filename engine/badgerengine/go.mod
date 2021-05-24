@@ -7,3 +7,5 @@ require (
 	github.com/jhchabran/tmp-genji-release v0.1.1
 	github.com/stretchr/testify v1.7.0
 )
+
+replace github.com/jhchabran/tmp-genji-release => ../../

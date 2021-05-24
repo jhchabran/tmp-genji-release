@@ -6,8 +6,8 @@ require (
 	github.com/agnivade/levenshtein v1.1.0
 	github.com/c-bata/go-prompt v0.2.5
 	github.com/dgraph-io/badger/v3 v3.2011.1
-	github.com/jhchabran/tmp-genji-release v0.1.1
-	github.com/jhchabran/tmp-genji-release/engine/badgerengine v0.1.1
+	github.com/jhchabran/tmp-genji-release v0.2.0
+	github.com/jhchabran/tmp-genji-release/engine/badgerengine v0.2.0
 	github.com/stretchr/testify v1.7.0
 	github.com/urfave/cli/v2 v2.3.0
 	go.etcd.io/bbolt v1.3.5

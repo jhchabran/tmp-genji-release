@@ -2,6 +2,7 @@ package query
 
 import (
 	"errors"
+	"fmt"
 
 	errs "github.com/jhchabran/tmp-genji-release/errors"
 	"github.com/jhchabran/tmp-genji-release/internal/database"
@@ -21,6 +22,7 @@ func (stmt ReIndexStmt) IsReadOnly() bool {
 // Run runs the Reindex statement in the given transaction.
 // It implements the Statement interface.
 func (stmt ReIndexStmt) Run(tx *database.Transaction, args []expr.Param) (Result, error) {
+	fmt.Println("essese")
 	var res Result
 
 	if stmt.TableOrIndexName == "" {

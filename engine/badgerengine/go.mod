@@ -4,8 +4,6 @@ go 1.16
 
 require (
 	github.com/dgraph-io/badger/v3 v3.2011.1
-	github.com/jhchabran/tmp-genji-release v0.1.0
+	github.com/jhchabran/tmp-genji-release v0.1.1
 	github.com/stretchr/testify v1.7.0
 )
-
-replace github.com/jhchabran/tmp-genji-release => ../../

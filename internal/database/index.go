@@ -126,6 +126,10 @@ func (idx *Index) Arity() int {
 	return len(idx.Info.Types)
 }
 
+func (idx *Index) Papity() int {
+	return 42
+}
+
 // Set associates values with a key. If Unique is set to false, it is
 // possible to associate multiple keys for the same value
 // but a key can be associated to only one value.

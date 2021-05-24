@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/genjidb/genji"
-	"github.com/genjidb/genji/internal/testutil"
+	"github.com/jhchabran/tmp-genji-release"
+	"github.com/jhchabran/tmp-genji-release/internal/testutil"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,8 +3,8 @@ package expr
 import (
 	"strings"
 
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/internal/stringutil"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/internal/stringutil"
 )
 
 // A LiteralValue represents a litteral value of any type defined by the value package.

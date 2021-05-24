@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/buger/jsonparser"
-	"github.com/genjidb/genji/internal/stringutil"
+	"github.com/jhchabran/tmp-genji-release/internal/stringutil"
 )
 
 // NewFromJSON creates a document from raw JSON data.

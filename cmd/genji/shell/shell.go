@@ -14,10 +14,10 @@ import (
 
 	"github.com/agnivade/levenshtein"
 	"github.com/c-bata/go-prompt"
-	"github.com/genjidb/genji"
-	"github.com/genjidb/genji/cmd/genji/dbutil"
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/internal/sql/parser"
+	"github.com/jhchabran/tmp-genji-release"
+	"github.com/jhchabran/tmp-genji-release/cmd/genji/dbutil"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/internal/sql/parser"
 	"go.uber.org/multierr"
 	"golang.org/x/sync/errgroup"
 )

@@ -4,10 +4,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/genjidb/genji"
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/internal/expr"
-	"github.com/genjidb/genji/internal/sql/parser"
+	"github.com/jhchabran/tmp-genji-release"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/internal/expr"
+	"github.com/jhchabran/tmp-genji-release/internal/sql/parser"
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 )

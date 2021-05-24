@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/genjidb/genji/cmd/genji/dbutil"
+	"github.com/jhchabran/tmp-genji-release/cmd/genji/dbutil"
 	"github.com/urfave/cli/v2"
 )
 
@@ -39,7 +39,7 @@ Insert can also insert a stream of objects or an array of objects from standard 
 
 $ echo '{"a": 1} {"a": 2}' | genji insert --db my.db -t foo
 $ echo '[{"a": 1},{"a": 2}]' | genji insert --db my.db -t foo
-$ curl https://api.github.com/repos/genjidb/genji/issues | genji insert --db my.db -t foo`,
+$ curl https://api.github.com/repos/jhchabran/tmp-genji-release/issues | genji insert --db my.db -t foo`,
 		Flags: []cli.Flag{
 			&cli.StringFlag{
 				Name:    "engine",

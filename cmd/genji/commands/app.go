@@ -3,8 +3,8 @@ package commands
 import (
 	"os"
 
-	"github.com/genjidb/genji/cmd/genji/dbutil"
-	"github.com/genjidb/genji/cmd/genji/shell"
+	"github.com/jhchabran/tmp-genji-release/cmd/genji/dbutil"
+	"github.com/jhchabran/tmp-genji-release/cmd/genji/shell"
 	"github.com/urfave/cli/v2"
 )
 

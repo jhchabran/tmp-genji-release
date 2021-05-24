@@ -7,7 +7,7 @@ on:
 env:
   # Ensure that we still have a chance to remove tags even after release.
   # See also release.yaml.
-  GOPRIVATE: github.com/genjidb/genji
+  GOPRIVATE: github.com/jhchabran/tmp-genji-release
   # Enable reproducible builds.
   GOFLAGS: -trimpath
   CGO_ENABLED: '0'
@@ -135,7 +135,7 @@ jobs:
       - name: Build release asset
         env:
           version: ${{ github.event.release.tag_name }}
-        run: go install github.com/genjidb/genji/cmd/genji@"${version}"
+        run: go install github.com/jhchabran/tmp-genji-release/cmd/genji@"${version}"
 
       - name: Move asset to GOPATH/bin
         if: ${{ steps.go-env.outputs.hostos != matrix.os || steps.go-env.outputs.hostarch != matrix.arch }}

@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/engine"
-	"github.com/genjidb/genji/engine/memoryengine"
-	"github.com/genjidb/genji/internal/database"
-	"github.com/genjidb/genji/internal/testutil"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/engine"
+	"github.com/jhchabran/tmp-genji-release/engine/memoryengine"
+	"github.com/jhchabran/tmp-genji-release/internal/database"
+	"github.com/jhchabran/tmp-genji-release/internal/testutil"
 	"github.com/stretchr/testify/require"
 )
 

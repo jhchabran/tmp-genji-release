@@ -4,11 +4,11 @@ import (
 	"io"
 	"strings"
 
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/internal/expr"
-	"github.com/genjidb/genji/internal/query"
-	"github.com/genjidb/genji/internal/sql/scanner"
-	"github.com/genjidb/genji/internal/stringutil"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/internal/expr"
+	"github.com/jhchabran/tmp-genji-release/internal/query"
+	"github.com/jhchabran/tmp-genji-release/internal/sql/scanner"
+	"github.com/jhchabran/tmp-genji-release/internal/stringutil"
 )
 
 // Parser represents an Genji SQL Parser.

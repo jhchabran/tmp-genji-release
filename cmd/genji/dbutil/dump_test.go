@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/genjidb/genji"
+	"github.com/jhchabran/tmp-genji-release"
 	"github.com/stretchr/testify/require"
 )
 

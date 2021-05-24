@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/genjidb/genji"
-	"github.com/genjidb/genji/document"
+	"github.com/jhchabran/tmp-genji-release"
+	"github.com/jhchabran/tmp-genji-release/document"
 	"go.uber.org/multierr"
 )
 

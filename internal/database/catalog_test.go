@@ -5,11 +5,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/genjidb/genji"
-	"github.com/genjidb/genji/document"
-	errs "github.com/genjidb/genji/errors"
-	"github.com/genjidb/genji/internal/database"
-	"github.com/genjidb/genji/internal/testutil"
+	"github.com/jhchabran/tmp-genji-release"
+	"github.com/jhchabran/tmp-genji-release/document"
+	errs "github.com/jhchabran/tmp-genji-release/errors"
+	"github.com/jhchabran/tmp-genji-release/internal/database"
+	"github.com/jhchabran/tmp-genji-release/internal/testutil"
 	"github.com/stretchr/testify/require"
 )
 
@@ -429,7 +429,7 @@ func TestTxDropIndex(t *testing.T) {
 			_, err = tx.Catalog.GetIndex(tx, "idxBar")
 			require.NoError(t, err)
 
-			// cf: https://github.com/genjidb/genji/issues/360
+			// cf: https://github.com/jhchabran/tmp-genji-release/issues/360
 			_, err = tx.Catalog.GetTable(tx, "test")
 			require.NoError(t, err)
 

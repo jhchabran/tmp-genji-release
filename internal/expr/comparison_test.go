@@ -3,8 +3,8 @@ package expr_test
 import (
 	"testing"
 
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/internal/expr"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/internal/expr"
 )
 
 func TestComparisonExpr(t *testing.T) {

@@ -3,9 +3,9 @@ package query
 import (
 	"errors"
 
-	errs "github.com/genjidb/genji/errors"
-	"github.com/genjidb/genji/internal/database"
-	"github.com/genjidb/genji/internal/expr"
+	errs "github.com/jhchabran/tmp-genji-release/errors"
+	"github.com/jhchabran/tmp-genji-release/internal/database"
+	"github.com/jhchabran/tmp-genji-release/internal/expr"
 )
 
 // AlterStmt is a DSL that allows creating a full ALTER TABLE query.

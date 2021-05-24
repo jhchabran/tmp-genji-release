@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/genjidb/genji/engine"
+	"github.com/jhchabran/tmp-genji-release/engine"
 	"github.com/stretchr/testify/require"
 )
 

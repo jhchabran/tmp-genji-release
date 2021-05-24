@@ -3,7 +3,7 @@ package expr
 import (
 	"errors"
 
-	"github.com/genjidb/genji/document"
+	"github.com/jhchabran/tmp-genji-release/document"
 )
 
 // A Path is an expression that extracts a value from a document at a given path.

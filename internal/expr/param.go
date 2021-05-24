@@ -1,8 +1,8 @@
 package expr
 
 import (
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/internal/stringutil"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/internal/stringutil"
 )
 
 // A Param represents a parameter passed by the user to the statement.

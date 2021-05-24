@@ -1,5 +1,5 @@
 /*
-* CODE GENERATED AUTOMATICALLY WITH github.com/genjidb/genji/dev/gensqltest
+* CODE GENERATED AUTOMATICALLY WITH github.com/jhchabran/tmp-genji-release/dev/gensqltest
 * THIS FILE SHOULD NOT BE EDITED BY HAND
  */
 package query_test
@@ -7,8 +7,8 @@ package query_test
 import (
 	"testing"
 
-	"github.com/genjidb/genji"
-	"github.com/genjidb/genji/internal/testutil"
+	"github.com/jhchabran/tmp-genji-release"
+	"github.com/jhchabran/tmp-genji-release/internal/testutil"
 	"github.com/stretchr/testify/require"
 )
 

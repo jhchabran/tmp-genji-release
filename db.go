@@ -4,14 +4,14 @@ import (
 	"context"
 	"strings"
 
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/engine"
-	errs "github.com/genjidb/genji/errors"
-	"github.com/genjidb/genji/internal/database"
-	"github.com/genjidb/genji/internal/query"
-	"github.com/genjidb/genji/internal/sql/parser"
-	"github.com/genjidb/genji/internal/stream"
-	"github.com/genjidb/genji/internal/stringutil"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/engine"
+	errs "github.com/jhchabran/tmp-genji-release/errors"
+	"github.com/jhchabran/tmp-genji-release/internal/database"
+	"github.com/jhchabran/tmp-genji-release/internal/query"
+	"github.com/jhchabran/tmp-genji-release/internal/sql/parser"
+	"github.com/jhchabran/tmp-genji-release/internal/stream"
+	"github.com/jhchabran/tmp-genji-release/internal/stringutil"
 )
 
 // DB represents a collection of tables stored in the underlying engine.

@@ -3,9 +3,9 @@ package memoryengine_test
 import (
 	"testing"
 
-	"github.com/genjidb/genji/engine"
-	"github.com/genjidb/genji/engine/enginetest"
-	"github.com/genjidb/genji/engine/memoryengine"
+	"github.com/jhchabran/tmp-genji-release/engine"
+	"github.com/jhchabran/tmp-genji-release/engine/enginetest"
+	"github.com/jhchabran/tmp-genji-release/engine/memoryengine"
 )
 
 func builder() (engine.Engine, func()) {

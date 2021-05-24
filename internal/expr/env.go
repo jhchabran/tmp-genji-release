@@ -1,9 +1,9 @@
 package expr
 
 import (
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/internal/database"
-	"github.com/genjidb/genji/internal/stringutil"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/internal/database"
+	"github.com/jhchabran/tmp-genji-release/internal/stringutil"
 )
 
 // Environment contains information about the context in which

@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/document/encoding/msgpack"
-	"github.com/genjidb/genji/engine/memoryengine"
-	"github.com/genjidb/genji/internal/database"
-	"github.com/genjidb/genji/internal/expr"
-	"github.com/genjidb/genji/internal/query"
-	"github.com/genjidb/genji/internal/sql/parser"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/document/encoding/msgpack"
+	"github.com/jhchabran/tmp-genji-release/engine/memoryengine"
+	"github.com/jhchabran/tmp-genji-release/internal/database"
+	"github.com/jhchabran/tmp-genji-release/internal/expr"
+	"github.com/jhchabran/tmp-genji-release/internal/query"
+	"github.com/jhchabran/tmp-genji-release/internal/sql/parser"
 	"github.com/stretchr/testify/require"
 )
 

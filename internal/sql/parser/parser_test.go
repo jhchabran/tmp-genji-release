@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/genjidb/genji/internal/expr"
-	"github.com/genjidb/genji/internal/query"
-	"github.com/genjidb/genji/internal/sql/parser"
-	"github.com/genjidb/genji/internal/stream"
+	"github.com/jhchabran/tmp-genji-release/internal/expr"
+	"github.com/jhchabran/tmp-genji-release/internal/query"
+	"github.com/jhchabran/tmp-genji-release/internal/sql/parser"
+	"github.com/jhchabran/tmp-genji-release/internal/stream"
 )
 
 func TestParserMultiStatement(t *testing.T) {
@@ -39,7 +39,7 @@ func TestParserMultiStatement(t *testing.T) {
 }
 
 func TestParserDivideByZero(t *testing.T) {
-	// See https://github.com/genjidb/genji/issues/268
+	// See https://github.com/jhchabran/tmp-genji-release/issues/268
 	require.NotPanics(t, func() {
 		_, _ = parser.ParseQuery("SELECT * FROM t LIMIT 0 % .5")
 	})

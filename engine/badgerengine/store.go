@@ -6,7 +6,7 @@ import (
 	"errors"
 
 	"github.com/dgraph-io/badger/v3"
-	"github.com/genjidb/genji/engine"
+	"github.com/jhchabran/tmp-genji-release/engine"
 )
 
 // A Store is an implementation of the engine.Store interface.

@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/dgraph-io/badger/v3"
-	"github.com/genjidb/genji/engine"
-	"github.com/genjidb/genji/engine/badgerengine"
-	"github.com/genjidb/genji/engine/enginetest"
+	"github.com/jhchabran/tmp-genji-release/engine"
+	"github.com/jhchabran/tmp-genji-release/engine/badgerengine"
+	"github.com/jhchabran/tmp-genji-release/engine/enginetest"
 	"github.com/stretchr/testify/require"
 )
 

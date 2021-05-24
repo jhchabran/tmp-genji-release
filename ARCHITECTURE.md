@@ -40,7 +40,7 @@ Genji, in a bird's-eye view is structured in the following layers:
    - the `engine` layer is responsible of reading or writing bytes in the underlying KV-store
    - packages: `engine/*`, `document/encoding`, `document`
 
-For a description of each those these package, see the [GoDoc](https://pkg.go.dev/github.com/genjidb/genji).
+For a description of each those these package, see the [GoDoc](https://pkg.go.dev/github.com/jhchabran/tmp-genji-release).
 
 ## Current Trade offs
 

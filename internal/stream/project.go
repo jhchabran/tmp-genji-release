@@ -3,9 +3,9 @@ package stream
 import (
 	"strings"
 
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/internal/expr"
-	"github.com/genjidb/genji/internal/stringutil"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/internal/expr"
+	"github.com/jhchabran/tmp-genji-release/internal/stringutil"
 )
 
 // A ProjectOperator applies an expression on each value of the stream and returns a new value.

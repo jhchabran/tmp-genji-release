@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"github.com/genjidb/genji/internal/expr"
-	"github.com/genjidb/genji/internal/sql/scanner"
+	"github.com/jhchabran/tmp-genji-release/internal/expr"
+	"github.com/jhchabran/tmp-genji-release/internal/sql/scanner"
 )
 
 func (p *Parser) parseOrderBy() (expr.Path, scanner.Token, error) {

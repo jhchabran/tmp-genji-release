@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/genjidb/genji/document/encoding/msgpack"
-	"github.com/genjidb/genji/engine/memoryengine"
-	"github.com/genjidb/genji/internal/database"
+	"github.com/jhchabran/tmp-genji-release/document/encoding/msgpack"
+	"github.com/jhchabran/tmp-genji-release/engine/memoryengine"
+	"github.com/jhchabran/tmp-genji-release/internal/database"
 	"github.com/stretchr/testify/require"
 )
 

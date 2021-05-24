@@ -3,8 +3,8 @@ package custom
 import (
 	"testing"
 
-	"github.com/genjidb/genji/document/encoding"
-	"github.com/genjidb/genji/document/encoding/encodingtest"
+	"github.com/jhchabran/tmp-genji-release/document/encoding"
+	"github.com/jhchabran/tmp-genji-release/document/encoding/encodingtest"
 )
 
 func TestCodec(t *testing.T) {

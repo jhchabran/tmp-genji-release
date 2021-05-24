@@ -3,7 +3,7 @@ package query_test
 import (
 	"testing"
 
-	"github.com/genjidb/genji"
+	"github.com/jhchabran/tmp-genji-release"
 	"github.com/stretchr/testify/require"
 )
 

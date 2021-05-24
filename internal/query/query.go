@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/internal/database"
-	"github.com/genjidb/genji/internal/expr"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/internal/database"
+	"github.com/jhchabran/tmp-genji-release/internal/expr"
 )
 
 // A Query can execute statements against the database. It can read or write data

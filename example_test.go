@@ -3,8 +3,8 @@ package genji_test
 import (
 	"fmt"
 
-	"github.com/genjidb/genji"
-	"github.com/genjidb/genji/document"
+	"github.com/jhchabran/tmp-genji-release"
+	"github.com/jhchabran/tmp-genji-release/document"
 )
 
 type User struct {

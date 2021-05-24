@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/genjidb/genji"
-	"github.com/genjidb/genji/document"
+	"github.com/jhchabran/tmp-genji-release"
+	"github.com/jhchabran/tmp-genji-release/document"
 )
 
 // ExecSQL reads SQL queries from reader and executes them until the reader is exhausted.

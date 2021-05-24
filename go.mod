@@ -1,4 +1,4 @@
-module github.com/genjidb/genji
+module github.com/jhchabran/tmp-genji-release
 
 go 1.16
 

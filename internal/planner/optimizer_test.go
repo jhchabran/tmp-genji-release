@@ -3,12 +3,12 @@ package planner_test
 import (
 	"testing"
 
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/internal/expr"
-	"github.com/genjidb/genji/internal/planner"
-	"github.com/genjidb/genji/internal/sql/parser"
-	st "github.com/genjidb/genji/internal/stream"
-	"github.com/genjidb/genji/internal/testutil"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/internal/expr"
+	"github.com/jhchabran/tmp-genji-release/internal/planner"
+	"github.com/jhchabran/tmp-genji-release/internal/sql/parser"
+	st "github.com/jhchabran/tmp-genji-release/internal/stream"
+	"github.com/jhchabran/tmp-genji-release/internal/testutil"
 	"github.com/stretchr/testify/require"
 )
 

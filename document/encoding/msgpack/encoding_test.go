@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/document/encoding"
-	"github.com/genjidb/genji/document/encoding/encodingtest"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/document/encoding"
+	"github.com/jhchabran/tmp-genji-release/document/encoding/encodingtest"
 	"github.com/stretchr/testify/require"
 )
 

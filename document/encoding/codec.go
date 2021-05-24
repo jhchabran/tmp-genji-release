@@ -7,7 +7,7 @@ package encoding
 import (
 	"io"
 
-	"github.com/genjidb/genji/document"
+	"github.com/jhchabran/tmp-genji-release/document"
 )
 
 // A Codec is able to create encoders and decoders for a specific encoding format.

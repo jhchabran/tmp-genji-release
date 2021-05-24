@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/genjidb/genji/internal/stringutil"
+	"github.com/jhchabran/tmp-genji-release/internal/stringutil"
 )
 
 // A Scanner can iterate over a document and scan all the fields.

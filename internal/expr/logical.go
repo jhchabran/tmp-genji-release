@@ -1,9 +1,9 @@
 package expr
 
 import (
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/internal/sql/scanner"
-	"github.com/genjidb/genji/internal/stringutil"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/internal/sql/scanner"
+	"github.com/jhchabran/tmp-genji-release/internal/stringutil"
 )
 
 // AndOp is the And operator.

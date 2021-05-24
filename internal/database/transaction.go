@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/genjidb/genji/engine"
+	"github.com/jhchabran/tmp-genji-release/engine"
 )
 
 // Transaction represents a database transaction. It provides methods for managing the

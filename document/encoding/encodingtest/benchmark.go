@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/document/encoding"
-	"github.com/genjidb/genji/internal/stringutil"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/document/encoding"
+	"github.com/jhchabran/tmp-genji-release/internal/stringutil"
 	"github.com/stretchr/testify/require"
 )
 

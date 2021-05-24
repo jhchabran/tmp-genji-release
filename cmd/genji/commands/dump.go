@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/genjidb/genji/cmd/genji/dbutil"
+	"github.com/jhchabran/tmp-genji-release/cmd/genji/dbutil"
 	"github.com/urfave/cli/v2"
 )
 

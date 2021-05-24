@@ -7,7 +7,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/genjidb/genji/internal/stringutil"
+	"github.com/jhchabran/tmp-genji-release/internal/stringutil"
 )
 
 // Code heavily inspired by the influxdata/influxql repository

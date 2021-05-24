@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/genjidb/genji"
-	"github.com/genjidb/genji/document"
-	errs "github.com/genjidb/genji/errors"
+	"github.com/jhchabran/tmp-genji-release"
+	"github.com/jhchabran/tmp-genji-release/document"
+	errs "github.com/jhchabran/tmp-genji-release/errors"
 	"github.com/stretchr/testify/require"
 )
 

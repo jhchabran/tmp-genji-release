@@ -3,8 +3,8 @@ package parser_test
 import (
 	"testing"
 
-	"github.com/genjidb/genji/internal/query"
-	"github.com/genjidb/genji/internal/sql/parser"
+	"github.com/jhchabran/tmp-genji-release/internal/query"
+	"github.com/jhchabran/tmp-genji-release/internal/sql/parser"
 	"github.com/stretchr/testify/require"
 )
 

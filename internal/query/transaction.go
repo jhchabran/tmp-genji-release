@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/genjidb/genji/internal/database"
-	"github.com/genjidb/genji/internal/expr"
+	"github.com/jhchabran/tmp-genji-release/internal/database"
+	"github.com/jhchabran/tmp-genji-release/internal/expr"
 )
 
 // BeginStmt is a statement that creates a new transaction.

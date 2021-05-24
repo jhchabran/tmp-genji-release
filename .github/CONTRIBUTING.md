@@ -14,7 +14,7 @@ this project is taking.
 
 ## Reporting a bug
 
-We use Github issues to track bugs. Report a bug by [opening an issue](https://github.com/genjidb/genji/issues/new), it's that easy!
+We use Github issues to track bugs. Report a bug by [opening an issue](https://github.com/jhchabran/tmp-genji-release/issues/new), it's that easy!
 
 Make sure you give enough context for us to reproduce the bug:
 

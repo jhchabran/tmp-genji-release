@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"strconv"
 
-	"github.com/genjidb/genji/internal/stringutil"
+	"github.com/jhchabran/tmp-genji-release/internal/stringutil"
 )
 
 // CastAs casts v as the selected type when possible.

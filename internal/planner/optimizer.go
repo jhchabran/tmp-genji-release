@@ -1,12 +1,12 @@
 package planner
 
 import (
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/internal/database"
-	"github.com/genjidb/genji/internal/expr"
-	"github.com/genjidb/genji/internal/sql/scanner"
-	"github.com/genjidb/genji/internal/stream"
-	"github.com/genjidb/genji/internal/stringutil"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/internal/database"
+	"github.com/jhchabran/tmp-genji-release/internal/expr"
+	"github.com/jhchabran/tmp-genji-release/internal/sql/scanner"
+	"github.com/jhchabran/tmp-genji-release/internal/stream"
+	"github.com/jhchabran/tmp-genji-release/internal/stringutil"
 )
 
 var optimizerRules = []func(s *stream.Stream, tx *database.Transaction, params []expr.Param) (*stream.Stream, error){
@@ -760,7 +760,7 @@ func getRangesFromFilterNodes(fnodes []*filterNode) (stream.IndexRanges, error) 
 	}
 
 	if len(inOperands) > 1 {
-		// TODO FEATURE https://github.com/genjidb/genji/issues/392
+		// TODO FEATURE https://github.com/jhchabran/tmp-genji-release/issues/392
 		panic("unsupported operation: multiple IN operators on a composite index")
 	}
 

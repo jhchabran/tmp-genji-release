@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/genjidb/genji"
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/internal/testutil"
+	"github.com/jhchabran/tmp-genji-release"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/internal/testutil"
 	"github.com/stretchr/testify/require"
 )
 
@@ -92,7 +92,7 @@ func TestSelectStmt(t *testing.T) {
 		{"With two non existing idents, =", "SELECT * FROM test WHERE z = y", false, `[]`, nil},
 		{"With two non existing idents, >", "SELECT * FROM test WHERE z > y", false, `[]`, nil},
 		{"With two non existing idents, !=", "SELECT * FROM test WHERE z != y", false, `[]`, nil},
-		// See issue https://github.com/genjidb/genji/issues/283
+		// See issue https://github.com/jhchabran/tmp-genji-release/issues/283
 		{"With empty WHERE and IN", "SELECT * FROM test WHERE [] IN [];", false, `[]`, nil},
 	}
 
@@ -233,7 +233,7 @@ func TestSelectStmt(t *testing.T) {
 		require.JSONEq(t, `[{"foo": true},{"foo": 1}, {"foo": 2},{"foo": "hello"}]`, buf.String())
 	})
 
-	// https://github.com/genjidb/genji/issues/208
+	// https://github.com/jhchabran/tmp-genji-release/issues/208
 	t.Run("group by with arrays", func(t *testing.T) {
 		db, err := genji.Open(":memory:")
 		require.NoError(t, err)

@@ -10,10 +10,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/genjidb/genji"
-	"github.com/genjidb/genji/cmd/genji/dbutil"
-	"github.com/genjidb/genji/document"
-	errs "github.com/genjidb/genji/errors"
+	"github.com/jhchabran/tmp-genji-release"
+	"github.com/jhchabran/tmp-genji-release/cmd/genji/dbutil"
+	"github.com/jhchabran/tmp-genji-release/document"
+	errs "github.com/jhchabran/tmp-genji-release/errors"
 )
 
 type command struct {

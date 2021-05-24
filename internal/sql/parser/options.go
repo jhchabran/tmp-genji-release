@@ -1,6 +1,6 @@
 package parser
 
-import "github.com/genjidb/genji/internal/expr"
+import "github.com/jhchabran/tmp-genji-release/internal/expr"
 
 // Options of the SQL parser.
 type Options struct {

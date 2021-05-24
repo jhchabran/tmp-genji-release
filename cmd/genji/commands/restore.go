@@ -9,11 +9,11 @@ import (
 	"os"
 
 	"github.com/dgraph-io/badger/v3"
-	"github.com/genjidb/genji"
-	"github.com/genjidb/genji/cmd/genji/dbutil"
-	"github.com/genjidb/genji/engine"
-	"github.com/genjidb/genji/engine/badgerengine"
-	"github.com/genjidb/genji/engine/boltengine"
+	"github.com/jhchabran/tmp-genji-release"
+	"github.com/jhchabran/tmp-genji-release/cmd/genji/dbutil"
+	"github.com/jhchabran/tmp-genji-release/engine"
+	"github.com/jhchabran/tmp-genji-release/engine/badgerengine"
+	"github.com/jhchabran/tmp-genji-release/engine/boltengine"
 	"github.com/urfave/cli/v2"
 )
 

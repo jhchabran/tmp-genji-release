@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/document/encoding/msgpack"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/document/encoding/msgpack"
 	"github.com/stretchr/testify/require"
 )
 

@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/genjidb/genji/document"
-	"github.com/genjidb/genji/internal/database"
-	"github.com/genjidb/genji/internal/expr"
-	"github.com/genjidb/genji/internal/stringutil"
+	"github.com/jhchabran/tmp-genji-release/document"
+	"github.com/jhchabran/tmp-genji-release/internal/database"
+	"github.com/jhchabran/tmp-genji-release/internal/expr"
+	"github.com/jhchabran/tmp-genji-release/internal/stringutil"
 )
 
 type DocumentsOperator struct {

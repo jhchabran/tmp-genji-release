@@ -63,6 +63,10 @@ func Length(d Document) (int, error) {
 	return len, err
 }
 
+func Foobar(d Document) int {
+	return 42
+}
+
 // Fields returns a list of all the fields at the root of the document
 // sorted lexicographically.
 func Fields(d Document) ([]string, error) {

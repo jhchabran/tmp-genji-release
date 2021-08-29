@@ -38,7 +38,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2.3.4
       - name: Install Go
-        uses: actions/setup-go@v2.1.3
+        uses: actions/setup-go@v2.1.4
         with:
           go-version: 1.16.4
       - name: Get Go environment
@@ -132,7 +132,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2.3.4
       - name: Install Go
-        uses: actions/setup-go@v2.1.3
+        uses: actions/setup-go@v2.1.4
         with:
           go-version: 1.16.4
       - name: Get Go environment
@@ -173,7 +173,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2.3.4
       - name: Install Go
-        uses: actions/setup-go@v2.1.3
+        uses: actions/setup-go@v2.1.4
         with:
           go-version: 1.16.4
       - name: Get Go environment
@@ -238,7 +238,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2.3.4
       - name: Install Go
-        uses: actions/setup-go@v2.1.3
+        uses: actions/setup-go@v2.1.4
         with:
           go-version: 1.16.4
       - name: Get Go environment
@@ -283,7 +283,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2.3.4
       - name: Install Go
-        uses: actions/setup-go@v2.1.3
+        uses: actions/setup-go@v2.1.4
         with:
           go-version: 1.16.4
       - name: Get Go environment
@@ -365,7 +365,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2.3.4
       - name: Install Go
-        uses: actions/setup-go@v2.1.3
+        uses: actions/setup-go@v2.1.4
         with:
           go-version: 1.16.4
       - name: Get Go environment

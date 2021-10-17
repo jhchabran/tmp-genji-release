@@ -36,7 +36,7 @@ jobs:
       branch: ${{ steps.version.outputs.branch }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v2.3.5
       - name: Install Go
         uses: actions/setup-go@v2.1.3
         with:
@@ -130,7 +130,7 @@ jobs:
       - prepare1
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v2.3.5
       - name: Install Go
         uses: actions/setup-go@v2.1.3
         with:
@@ -171,7 +171,7 @@ jobs:
       - tag1
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v2.3.5
       - name: Install Go
         uses: actions/setup-go@v2.1.3
         with:
@@ -236,7 +236,7 @@ jobs:
       - tag1
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v2.3.5
       - name: Install Go
         uses: actions/setup-go@v2.1.3
         with:
@@ -281,7 +281,7 @@ jobs:
       - tag2
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v2.3.5
       - name: Install Go
         uses: actions/setup-go@v2.1.3
         with:
@@ -363,7 +363,7 @@ jobs:
       branch: ${{ steps.branch.outputs.name }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v2.3.5
       - name: Install Go
         uses: actions/setup-go@v2.1.3
         with:
@@ -442,7 +442,7 @@ jobs:
       - push
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v2.3.5
       - name: Create PR
         run: gh pr create -R="${repo}" -t="${title}" -b="${body}" -B="${base}" -H="${head}"
         env:
@@ -475,7 +475,7 @@ jobs:
       version: ${{ needs.prepare1.outputs.version }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v2.3.5
       - name: Discard draft
         if: ${{ needs.draft.result == 'success' || needs.draft.outputs.id != '' }}
         env:
